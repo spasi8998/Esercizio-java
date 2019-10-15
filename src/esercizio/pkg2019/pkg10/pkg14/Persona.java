@@ -20,13 +20,14 @@ public class Persona {
        this.nome=nome;
        this.cognome=cognome;
        this.titolo=titolo;
-       this.professione=titolo;
+       this.professione=professione;
     }
     
     public Persona(String nome, String cognome)
     {
             this.nome=nome;
             this.cognome=cognome;
+            this.titolo="ing";
     
     
 }
@@ -43,5 +44,5 @@ public class Persona {
    {
       this.professione=professione;
    }
-   
+}
    
